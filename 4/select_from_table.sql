@@ -1,0 +1,1 @@
+SELECT u.id user_id, u.firstName, u.lastName, c.name city FROM user u LEFT JOIN city c ON c.id=u.city
